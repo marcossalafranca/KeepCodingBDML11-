@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#chart {
+  background-color: lightgray;
+  width: 900px;
+}
+
+rect.bar {
+  fill:cadetblue;
+  fill-opacity: 0.8;
+  stroke: cadetblue;
+  stroke-width: 2px;
+  }
+
+.bar.GiseleBündchen{
+  fill: paleturquoise;
+}
+.bar.BlakeLively{
+  fill: paleturquoise;
+}
+.bar.ToniGarrn{
+  fill: paleturquoise;
+}
+.bar.NinaAgdal{
+  fill: paleturquoise;
+}
