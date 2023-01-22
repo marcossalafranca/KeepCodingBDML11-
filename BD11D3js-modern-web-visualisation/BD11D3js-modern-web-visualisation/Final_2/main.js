@@ -90,22 +90,27 @@ d3.csv("data.csv").then(data => {
         .attr("width",x.bandwidth())
         .attr("height", d => height - y(d.age) - margin.top - margin.bottom )
 
-/*
-    No he habilitado esta parte del codigo porque recargaba demasiado la grafica mostrando todos los nombres de las novias
+        //Show name and ages:
+        .on("mouseover", function(d) {
+            elementGroup.append("text")
+                .attr("id", "girlfriend-age")
+                .text(`Name:  ${d.name} - Age: ${d.age} - Leo's age: ${age(d.year)} - Age difference: ${age(d.year) - d.age}`)
+                .attr("x", width/2- margin.left -margin.right -150)
+                .attr("y", height - margin.bottom/2)
+                .style("font-size", "14px")
+                .style("font-weight", "bold")
+        })
 
-    elements.enter().append("text")
-        .attr("class", "bar-text")
-        .attr("x", d => x(d.year) + x.bandwidth()/2)
-        .attr("y", d => y(d.age) - 5)
-        .text(d => d.name)
-        .attr("text-anchor", "middle")
-        .style("font-size", "12px")
-*/
+        // Hite name and ages:
+        .on("mouseout", function() {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .attr("fill", "pink")
 
+        d3.select("#girlfriend-name").remove()
+        d3.select("#girlfriend-age").remove()
+    })
 })
 
-svg.append("text").text("1- Gisele Bündchen, 2- Bar Rafaeli, 3- Blake Lively, 4- Erin Heatherson, 5- Toni Garrn, 6- Kelly Rohrbach, 7- Nina Agdal, 8- Camila Morrone")
-    .attr("x", width -120)
-    .attr("y", height - 10)
-    .style("text-anchor", "end")
-    .style("font-size", "12px")
+
