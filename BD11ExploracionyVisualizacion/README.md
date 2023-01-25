@@ -1,4 +1,4 @@
-# Exploración y Visualización de Datos  
+# Exploración y Visualización de Datos
 ## Práctica realizada con Tableau##
 
 ---
@@ -14,7 +14,7 @@ Para poder realizar el proyecto se han utilizado los datasets proporcionados dur
 + *airbnb-listing Madrid.csv*  Archivo que se encuentra en la carpeta Data. Dataset
 + *Nveces_alquilado.csv*  Archivo que se encuentra en la carpeta Data. Dataset
 + *Data_Visualization.pdf*  Archivo que se encuentra en la carpeta Practica. Enunciado de la practica.
-+ *Proyecto airbnb.twdx*  Archivo que se encuentra en la carpeta archivo. Archivo de Tableau donde se encuentra la practica realizada. 
++ *Proyecto airbnb.twdx*  Archivo que se encuentra en la carpeta archivo. Archivo de Tableau donde se encuentra la practica realizada.
 
 Antes de realizar el dashboard he intentado limpiar un poco el dataset.  Al igual que en el módulo he filtrado la columna City para conseguir solo datos de Madrid, también he desactivado las columnas que contenián URL y luego he excluido los datos NULL de Host Since, Neighborhood y Zipcode.
 
@@ -28,6 +28,8 @@ En el dashboard podemos ver distintos gráficos:
 
 
 
-    
+![](../../../Pictures/Projecto%20aribnbMadrid/Imagen_1.jpg)
+![](../../../Pictures/Projecto%20aribnbMadrid/Imagen_2.jpg)
+![](../../../Pictures/Projecto%20aribnbMadrid/Imagen_3.jpg)
 
 Marcos Salafranca Arnau                    Noviembre de 2022
