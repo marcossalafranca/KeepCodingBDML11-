@@ -26,8 +26,8 @@ En el dashboard podemos ver distintos gráficos:
      + En el primer mapa, se muestra el precio promedio del alquiler en color verde-rojo (de más barato a más caro) según el código postal. Además se nos muestra una ventana emergente con el promedio de reviews y la puntuación recibida en color.
      + En el segundo, un mapa de barrios, donde se puede filtrar según  los barrios de interés. Donde nos aparece el precio promedio en color verde-rojo, el código ID de la vivienda, código postal y tipo de vivienda.
 
-![](Imagen_1.jpg)
-![](Imagen_2.jpg)
-![](Imagen_3.jpg)
+![](Imagenes/Imagen_1.jpg)
+![](Imagenes/Imagen_2.jpg)
+![](Imagenes/Imagen_3.jpg)
 
 Marcos Salafranca Arnau                    Noviembre de 2022
