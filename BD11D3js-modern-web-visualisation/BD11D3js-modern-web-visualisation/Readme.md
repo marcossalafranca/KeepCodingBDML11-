@@ -19,7 +19,9 @@ El directorio  contiene tres carpetas:
 2. Concectar el slider para que cada gráfica se modifique para ver quién tiene más mundiales hasta ese año.
 3. Combinar 2 gráficas, representar la edad de Leonardo Di Caprio en una grafica de línea y representar la edad de sus ex en una gráfica de barras, usando la misma escala, para poder comparar ambos valores. 
 
-
+![](Imagenes/LastWorldCupWinners.jpg)
+![](Imagenes/WorldCupWinners.jpg)
+![](Imagenes/Leo&Girlfriends.jpg)
 
 
 Marcos Salafranca Arnau                    Enero de 2023
