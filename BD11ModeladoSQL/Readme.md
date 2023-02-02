@@ -41,4 +41,4 @@ Nota: Los importes se debe controlar la moneda (EURO, DÓLAR etc.).
 ![](imagenes/imagen2.jpg)
 
 
-Marcos Salafranca Arnau                    Enero de 2023
+Marcos Salafranca Arnau                    Febrero de 2023
