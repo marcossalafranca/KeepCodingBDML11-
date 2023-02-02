@@ -10,8 +10,8 @@
 El directorio  diversos archivos:
 * Práctica Modelado y SQL.docx.pdf   Contiene el enunciado de  la practica en formato PDF.
 * Diagrama.drwio   Contiene el modelo Entidad Relación normalizado de la practica.
-* ScriptPractica.sql   Contine el script SQL preparado para ejecutarse con tablas, PKs, relaciones y datos de la practica.
-* ConsultaPractica.sql  Contine el script con la consulta SQL descrita en  la practica.
+* ScriptPractica.sql   Contiene el script SQL preparado para ejecutarse con tablas, PKs, relaciones y datos de la practica.
+* ConsultaPractica.sql  Contiene el script con la consulta SQL descrita en  la practica.
 
 
 ## Enunciado ##
