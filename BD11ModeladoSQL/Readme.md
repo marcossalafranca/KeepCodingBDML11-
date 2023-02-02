@@ -10,8 +10,8 @@
 El directorio  diversos archivos:
 * Práctica Modelado y SQL.docx.pdf   Contiene el enunciado de  la practica en formato PDF.
 * Diagrama.drwio   Contiene el modelo Entidad Relación normalizado de la practica.
-* ScriptPractica.sql   Contine el script SQL preparado para ejecutarse con tablas, PKs, relaciones y datos de la practica.
-* ConsultaPractica.sql  Contine el script con la consulta SQL descrita en  la practica.
+* ScriptPractica.sql   Contiene el script SQL preparado para ejecutarse con tablas, PKs, relaciones y datos de la practica.
+* ConsultaPractica.sql  Contiene el script con la consulta SQL descrita en  la practica.
 
 
 ## Enunciado ##
@@ -41,4 +41,4 @@ Nota: Los importes se debe controlar la moneda (EURO, DÓLAR etc.).
 ![](imagenes/imagen2.jpg)
 
 
-Marcos Salafranca Arnau                    Enero de 2023
+Marcos Salafranca Arnau                    Febrero de 2023
