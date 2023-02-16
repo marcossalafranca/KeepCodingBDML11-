@@ -19,12 +19,6 @@ WITH vdn_aggregation
         GROUP BY ivr_id
         QUALIFY ROW_NUMBER() OVER(PARTITION BY ivr_id ORDER BY ivr_id DESC) = 1)
 
-    /*Tambien se podria usar MAX(IF())
-    IF(COUNT(DISTINCT document_type) = 1 AND MAX(document_type) = 'NULL', 'NULL', MAX(IF(document_type <> 'NULL', document_type, NULL))) AS document_type
-    IF(COUNT(DISTINCT document_identification) = 1 AND MAX(document_identification) = 'NULL', 'NULL', MAX(IF(document_identification <> 'NULL', document_identification, NULL))) AS document_identification
-    IF(COUNT(DISTINCT customer_phone) = 1 AND MAX(customer_phone) = 'NULL', 'NULL', MAX(IF(customer_phone <> 'NULL', customer_phone, NULL))) AS customer_phone
-    IF(COUNT(DISTINCT billing_account_id) = 1 AND MAX(billing_account_id) = 'NULL', 'NULL', MAX(IF(billing_account_id <> 'NULL', billing_account_id, NULL))) AS billing_account_id
-   */
   ,masiva_leg
   AS( SELECT ivr_detail.ivr_id
           , MAX(IF(module_name = 'AVERIA_MASIVA', 1, 0)) AS masiva_leg
