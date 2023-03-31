@@ -13,6 +13,9 @@ El directorio  contiene  dos archivos y una carpeta:
 * La carpeta Datasets  Contiene los datasets que se utilizaron en la practica.
 
 ## Medium ##
+Direccion al medium
+https://medium.com/@ArnauSalafranca/conclusiones-a-la-practica-de-processing-data-84a2c9a50ea4
+
 Conclusiones a la practica de processing data
 
 En este código en Python utilizando PySpark, se realiza un análisis de datos del World Happiness Report para determinar el país más feliz en el 2021.
