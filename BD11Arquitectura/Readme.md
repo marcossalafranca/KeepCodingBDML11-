@@ -76,6 +76,7 @@ En dicho README deberíais incluir además una guía de ejecución de los pasos,
 
 El último día de clases veremos una pequeña demo de cómo hacer todo esto.
 
+![](Imagenes/Arquitectura.jpg)
 
 
 
